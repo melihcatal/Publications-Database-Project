@@ -1,0 +1,175 @@
+.{
+  font-family: 'Laila', serif;
+  box-sizing: border-box;
+
+}
+
+
+.title{
+  text-align: center;
+    color:#012e38;
+    font-weight: bold;
+    margin: 20px;
+    padding: 7px;
+    background-color: #e5c9e5;
+}
+.title:hover{
+  background:grey;
+  opacity: 0.9;
+  transition: 0.5s;
+  color: white;
+}
+.removebutton{
+  background-color: #e5c9e5;
+  margin: 20px;
+  padding: 10px;
+
+}
+.removebutton:hover{
+  background: grey;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+
+a{
+  font-size: 20px;
+  text-decoration: underline;
+  padding: 5px;
+    color: #2D2D2D;
+}
+.otherpages{
+  margin: 20px;
+  text-align: center;
+  opacity: 0.6;
+
+}
+h3{
+  font-size: 25px;
+  color: white;
+}
+.otherpages:hover{
+  background: grey;
+  opacity: 0.8;
+
+  transition: 0.5s;
+}
+#task{
+  font-size: 16px;
+
+}
+#task:hover{
+  background: #e5c9e5;
+  opacity: 0.9;
+  transition: 0.5s;
+  color: white;
+}
+
+
+
+body {
+  background-color:#84e4ed ;
+}
+
+.removebutton{
+  text-align: center;
+  margin: 20px;
+
+}
+button{
+  font-size: 15px;
+
+}
+button:hover{
+  background-color:#2D2D2D ;
+  color: white;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+
+table{
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+
+}
+h5{
+  font-style: italic;
+  color: white;
+}
+th{
+  color: #2D2D2D;
+  text-align: center;
+
+}
+
+tr:nth-child(odd){
+  background: #f9f9f9;
+  color: black;
+}
+
+tr:hover{
+  opacity: 0.8 ;
+background: #596f89;
+color: white;
+transition: 0.5s;
+
+}
+
+.class{
+  color: white;
+}
+
+.add{
+  margin: 20px;
+  background-color: #e5c9e5;
+  text-align: center;
+  padding:20px;
+}
+.add:hover{
+  background: grey;
+  color: white;
+
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.remove{
+  background-color: #e5c9e5;
+  padding:20px;
+
+  text-align: center;
+  margin: 20px;
+
+}
+.remove:hover{
+  background: grey;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.singleitem{
+  background-color: #e5c9e5;
+  padding:20px;
+
+  text-align: center;
+  margin: 20px;
+
+}
+h3{
+  color: #2D2D2D;
+}
+.singleitem:hover{
+  background: grey;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.edit{
+  background-color: #e5c9e5;
+  padding:20px;
+
+  text-align: center;
+  margin: 20px;
+}
+.edit:hover{
+  background: grey;
+  opacity: 0.8;
+  transition: 0.5s;
+}

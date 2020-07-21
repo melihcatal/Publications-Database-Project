@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  text-align: center;
+
+
+}
+
+.tab-content{
+
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  width: 20 0px;
+  background-color: #b7cff7;
+opacity: 0.6;
+  font-size: 20px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.error{
+
+
+  padding: 50px;
+  font-size: 50px;
+}
+
+.error h3 {
+color: red;
+
+}
+
+.imageclass{
+  padding-left:400px;
+  height: 160px;
+  width: 190px;
+}
+
+.imageclass img {
+
+    width: 100%;
+    height: auto;
+}

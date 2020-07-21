@@ -1,0 +1,1 @@
+project folder contains related database to the Publications Project. You can save it into C:\xampp\mysql\data location for Windows or /usr/local/mysql/data for MAC, if you use XAMPP. 

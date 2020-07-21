@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!--  using boost library    -->
+
+    <meta charset="utf-8">
+	<link rel="stylesheet" type = "text/css" href = "css/bootstrap.min.css"/>
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" charset="utf-8"></script>
+  </head>
+  <body>
+	<div class="container">
+
+
+
+
+
+
+
+
+    <div class="form">
+
+
+          <div class="tab-content">
+
+            <div id="login">
+
+              <form action="login.php" method="get">
+
+                <div class="field-wrap">
+                <label>
+                  User Name :<span class="req">*</span>
+                </label>
+                <input type="text" name="usernaname" value="" required placeholder="kullanıcı adı">
+              </div>
+
+              <div class="field-wrap">
+                <label>
+                  Password<span class="req">*</span>
+                </label>
+                <input type="password"required autocomplete="off" placeholder="Şifre" id="myInput" name="passw"/>
+              </div>
+              <label>Show Password</label>
+            <input type="checkbox" name="showpass" value="showpass" onclick="myFunction()"><br>
+
+              <button type="submit" name="login">Login</button>
+
+
+              </form>
+
+            </div>
+
+          </div><!-- tab-content -->
+
+    </div> <!-- /form -->
+	<script src="js/bootstrap.min.js"><script/>
+  </body>
+</html>
